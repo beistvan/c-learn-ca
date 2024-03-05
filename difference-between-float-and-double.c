@@ -25,3 +25,12 @@ int main() {
   printf("At the end, our target double y is:%f\n", y);
 
 }
+
+/*
+ * Output: *
+ *
+At the start, our target float b is:0.000000
+At the start, our target double y is:0.000000
+At the end, our target float b is:99.999046
+At the end, our target double y is:100.000000
+ */
