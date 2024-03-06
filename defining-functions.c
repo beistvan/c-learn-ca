@@ -1,13 +1,10 @@
 #include <stdio.h>
 
-void makeCookie(){
-  printf("Milk\n");
-  printf("Flour\n");
-  printf("Chocolate Chips\n");
-  printf("Butter\n");
-  printf("Thanks for the ingredients, here's a cookie!\n");
+// Write your code below
+void printMyFavoriteAnimal() {
+  printf("My favorite animal is a YOUR_ANIMAL_NAME\n");
 }
 
 int main(void) {
-  makeCookie();
+  printMyFavoriteAnimal();
 }
