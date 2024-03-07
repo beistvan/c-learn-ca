@@ -84,3 +84,59 @@ int main() {
   struct RaceCar raceCar2 = {"Jack", "orange", 0};
   startRace(&raceCar1, &raceCar2);
 };
+
+
+// Output 1:
+/*
+
+Welcome to our main event digital race fans!
+I hope everybody has their snacks because we are about to begin!
+Racers Ready! In...
+5
+4
+3
+2
+1
+Race!
+After lap number 1
+First Place Is: Jack in the orange race car!
+After lap number 2
+First Place Is: Jack in the orange race car!
+After lap number 3
+First Place Is: Jack in the orange race car!
+After lap number 4
+First Place Is: Jack in the orange race car!
+After lap number 5
+First Place Is: Jack in the orange race car!
+Let's all congratulate Jack in the orange race car for an amazing performance.
+It truly was a great race and everybody have a goodnight!
+
+*/
+
+// Output 2:
+/*
+
+Welcome to our main event digital race fans!
+I hope everybody has their snacks because we are about to begin!
+Racers Ready! In...
+5
+4
+3
+2
+1
+Race!
+After lap number 1
+First Place Is: Jack in the orange race car!
+After lap number 2
+First Place Is: John in the yellow race car!
+After lap number 3
+First Place Is: Jack in the orange race car!
+After lap number 4
+First Place Is: John in the yellow race car!
+After lap number 5
+First Place Is: John in the yellow race car!
+Let's all congratulate John in the yellow race car for an amazing performance.
+It truly was a great race and everybody have a goodnight!
+
+*/
+ 
